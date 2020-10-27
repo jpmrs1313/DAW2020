@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project_record SYSTEM "file:/Users/joaosoares/Downloads/t2.dtd">
+<project_record>
+    <name>Project Record</name>
+    <header>
+        <keyname>DTD e XML</keyname>
+        <title>Construção de XML e DTD</title>
+        <subtitle>Relatório inserido na UC de Desenvolvimento das Aplicações Web 20/21</subtitle>
+        <begin_date>Outubro 2020</begin_date>
+        <end_date>Outubro 2020</end_date>
+        <supervisor>
+            <supervisor_name>José Carlos Ramalho</supervisor_name>
+            <supervisor_link>http://www4.di.uminho.pt/~jcr/</supervisor_link>
+        </supervisor>
+    </header>
+    <workteam>
+        <element>
+            <id>1</id>
+            <team_name>João Soares</team_name>
+            <mail>jpmrs1313@gmail.com</mail>
+        </element>
+    </workteam>
+    <abstract>
+        <paragrafo>
+            <normal>Com este trabalho de casa aprendi a desenvolver um dicheiro </normal>
+            <bold>DTD </bold> 
+            <normal>que me permitiu validar a estrutura de um ficheiro </normal>
+            <italic> XML </italic>
+        </paragrafo>
+    </abstract>
+    <deliverables>
+        <deliverable>
+            <deliverable_name>t2.dt2 e t2.xml</deliverable_name>
+            <deliverable_link>https://github.com/jpmrs1313/DAW2020</deliverable_link>
+        </deliverable>
+    </deliverables>
+</project_record>
