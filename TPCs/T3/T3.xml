@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project_record SYSTEM "file:/Users/joaosoares/Downloads/t2.dtd">
+<project_record>
+    <name>Project Record</name>
+    <header>
+        <keyname>XSLT</keyname>
+        <title>Trabalho de Casa 3</title>
+        <subtitle>Relatório do TPC</subtitle>
+        <begin_date>Outubro 2020</begin_date>
+        <end_date>Outubro 2020</end_date>
+        <supervisor>
+            <supervisor_name>José Carlos Ramalho</supervisor_name>
+            <supervisor_link>http://www4.di.uminho.pt/~jcr/</supervisor_link>
+        </supervisor>
+    </header>
+    <workteam>
+        <element>
+            <id>1</id>
+            <team_name>João Soares</team_name>
+            <mail>jpmrs1313@gmail.com</mail>
+        </element>
+    </workteam>
+    <abstract>
+        <paragrafo>
+            <normal>Neste trabalho desenvolvi um ficheiro DTD que me permitiu definir a estrutura do ficheiro </normal>
+            <bold>XML </bold> 
+            <normal>de seguida foi necessário tornar a informação contida no ficheiro </normal>
+            <italic>XML </italic>
+            <normal>interpretavel ao utilizador comum, para isso foi desenvolvido um ficheiro XSL que permitiu aplicar transformacoes ao ficheiro XML de modo a criar um indice que permite aceder a informaçao detalhada do ficheiro XML </normal>
+        </paragrafo>
+    </abstract>
+    <deliverables>
+        <deliverable>
+            <deliverable_name>T3.dtd</deliverable_name>
+            <deliverable_link>https://github.com/jpmrs1313/DAW2020</deliverable_link>
+        </deliverable>
+        <deliverable>
+            <deliverable_name>T3.xsl</deliverable_name>
+            <deliverable_link>https://github.com/jpmrs1313/DAW2020</deliverable_link>
+        </deliverable>
+    </deliverables>
+</project_record>
