@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "file:/Users/joaosoares/Downloads/pr.dtd">
+<pr>
+    <meta>
+        <key>DAW 2020</key>
+        <title>JS SERVER</title>
+        <bdate>Novembro 2020</bdate>
+        <edate>Novembro 2020</edate>
+        <supervisor>JCR</supervisor>
+    </meta>
+    <team>
+        <member id="42836">
+            <name>João Soares</name>
+            <email>pg42836@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>Neste trabalho de casa criei um servidor <b>Javascript</b> que me permitiu criar um indice para poder visualizar o nome dos alunos, cursos e instrumentos</p>
+    </abstract>
+    <deliverables>
+        <link url="https://github.com/jpmrs1313/DAW2020/tree/main/TPCs/T5">JS Server</link>
+        <link url="https://github.com/jpmrs1313/DAW2020/tree/main/TPCs/T5">DB JSON</link>
+        <link url="https://github.com/jpmrs1313/DAW2020/tree/main/TPCs/T5">Project Record</link>
+    </deliverables>
+</pr>
