@@ -1,0 +1,36 @@
+extends layout
+
+block content
+    .w3-card-4
+      header.w3-container.w3-teal
+        h3.w3-left Informações do Aluno #{info.numero} (DAW2020)
+      if info!=null
+        .w3-container 
+          h4.w3-container.w3-teal Nome do aluno: #{info.nome} 
+          h4.w3-container.w3-teal Git do aluno: <a href=#{info.git}>#{info.git} </a>
+          if info.tpc.length > 0
+            .w3-container 
+            table.w3-table-all
+              tr 
+                  th Número
+                  th Realizado
+              - var n=1
+              each t in info.tpc
+                tr
+                  td Trabalho de casa #{n}
+                  if t==1
+                    td Sim
+                  else
+                    td Não  
+                  - n = n + 1
+          else
+            .w3-container
+              p Não existe informação dos tpc
+      else
+        .w3-container
+          p Não existe informação do aluno...        
+      footer.w3-container.w3-teal
+        a(href='/students') Voltar à pagina inicial
+        address Gerado por dawApp :: 2020-Nov, jcr
+
+  

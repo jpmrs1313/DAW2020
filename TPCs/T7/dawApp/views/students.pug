@@ -1,0 +1,46 @@
+extends layout
+
+block content
+    .w3-card-4
+      br
+      br
+      form.w3-container.w3-teal.w3-center(action='/students/registar')
+        input(type='submit', value='Novo Registo')
+      br  
+      header.w3-container.w3-teal
+        h3.w3-left Students List (DAW2020)
+      br  
+      if list.length > 0
+        .w3-container 
+          table.w3-table-all
+            tr 
+              th Number
+              th Name
+              th Git
+              th Número de tpc realizados
+            each s in list
+              - var n_tpc=0
+              each t in s.tpc
+                if t==1
+                  - n_tpc = n_tpc+1
+              tr
+                td
+                  a(href="http://localhost:7700/students/"+s.numero) #{s.numero}
+                td= s.nome
+                td
+                  a(href=s.git) #{s.git}
+                td #{n_tpc}
+                td 
+                  form(action='/students/editar/'+s.numero, method='GET')
+                    input(type='submit', value='Editar')
+                td 
+                  form(action='/students/eliminar/'+s.numero, method='POST')
+                    input(type='submit', value='Eliminar')    
+
+      else
+        .w3-container
+          p There are no students...
+      footer.w3-container.w3-teal
+        address Gerado por dawApp :: 2020-Nov, jcr
+
+  
